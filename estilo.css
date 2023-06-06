@@ -1,0 +1,172 @@
+/* DOCUMENTO */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   /* border: 1px solid red;*/
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Merriweather';
+}
+body p{
+    text-align: justify;
+
+}
+.text1 {
+    width: 900px;
+
+}
+.text2 {
+    width: 1180px;
+}
+.text3 {
+    width: 1180px;
+}
+.text4 {
+    width: 1180px;
+}
+.text13 {
+    width: 100%;
+}
+.text14{
+   align-items: center;
+
+}
+.text6{
+    width:90%;
+}
+aside {
+    width: 20%;
+    min-height: 100%;
+    background-color: #010326;
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 15px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    padding: 15px 119px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+    font-weight: 700;
+    
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #010326;
+}
+main {
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    min-height: 100%;
+    background-color: #D9D9D9;
+    color: #000000;
+    font-size: 30px;
+    padding: 15px;
+}
+
+}
+figure header{
+   padding-right: 200px;
+
+}
+.img1 {
+    border: 5px solid;
+    color:010440;
+    float: right;
+}
+#titulo1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 800px;
+    margin: 10px auto 40px auto;
+}
+#titulo2 {
+    text-align: left;
+    border-bottom: 2px solid black;
+    width: 1100px;
+    margin: 10px 0 40px 0;
+
+}
+.img2 {
+    float: left;
+    margin: 20px;
+    border: 5px solid;
+    color:010440;
+}
+#titulo3 {
+    text-align: left;
+    border-bottom: 2px solid black;
+    width: 1100px;
+    margin: 10px 0 40px 0;
+
+}
+#titulo4{
+    text-align: left;
+    border-bottom: 2px solid black;
+    width: 1100px;
+    margin: 10px 0 40px 0;
+
+}
+#titulo5 {
+    text-align: left;
+    border-bottom: 2px solid black;
+    width: 1100px;
+    margin: 10px 0 40px 0;
+}
+.img3{
+    float: right;
+    margin: 20px;
+    border: 5px solid;
+    color:010440;
+    box-shadow: 20px 20px 0px black;
+}
+.img4 {
+    float: right;
+    margin: 20px;
+    border: 5px solid;
+    color:010440;
+    box-shadow: 20px 20px 0px #C65731;
+}
+div.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+div.tudo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+div.tudo1 {
+    display: flex;
+   justify-content: center;
+}
+.img5 {
+    float: right;
+    margin: 20px;
+    margin-top: 100px;
+}
+.video1{
+    float: right;
+    margin: 20px;
+    margin-top: 100px;
+}
+.login1 {
+    margin-top: 100px;
+}
